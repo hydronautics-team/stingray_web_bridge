@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+anyio = "*"
+click = "*"
+fastapi = "*"
+h11 = "*"
+httptools = "*"
+idna = "*"
+pydantic = "*"
+python-dotenv = "*"
+pyyaml = "*"
+sniffio = "*"
+starlette = "*"
+typing-extensions = "*"
+uvicorn = "*"
+uvloop = "*"
+watchfiles = "*"
+websockets = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
